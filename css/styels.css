@@ -8,7 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(120deg, #1779ba, rgb(51, 107, 190));
+  background: linear-gradient(120deg, #51b9ff, rgb(51, 107, 190));
   height: 100vh;
   overflow: hidden;
 }
@@ -16,8 +16,8 @@ body {
 
 .title {
     text-align: left;
-    margin-left: 20px; /* Adjust margin as needed */
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .title h2 {
@@ -45,7 +45,7 @@ body {
 
   .vertical {
     position: relative;
-    border-left: 6px solid white;
+    border-left: 8px solid white;
     border-radius: 99px;
     height: 200px;
     width:fit-content;
@@ -59,8 +59,8 @@ body {
 .center {
     position: absolute;
     top: 50%;
-    right: 10%; /* Adjusted right property */
-    transform: translate(0%, -50%); /* Adjusted translate */
+    right: 10%;
+    transform: translate(0%, -50%); 
     width: 400px;
     background: white;
     border-radius: 10px;
@@ -70,6 +70,7 @@ body {
 .center h1 {
     text-align: center;
     padding: 20px 0;
+    border-bottom:  0.5px solid rgb(116, 116, 116);
 }
 
 .center form {
